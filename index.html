@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MerchEriQ | Oficiálny merch</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #6a00ff, #00d4ff);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #151515;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00d4ff;
+    }
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      background: #6a00ff;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .hero button:hover {
+      background: #00d4ff;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+    .product {
+      background: #1c1c1c;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin: 15px 0 10px;
+    }
+    .product button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #00d4ff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #151515;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MerchEriQ</h1>
+    <p>Originálny merch. Originálny štýl.</p>
+  </header>
+
+  <nav>
+    <a href="#">Domov</a>
+    <a href="#produkty">Produkty</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Vyjadri sa. Noste MerchEriQ.</h2>
+    <button>Prezrieť merch</button>
+  </section>
+
+  <section id="produkty" class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Tričko MerchEriQ" />
+      <h3>Tričko MerchEriQ</h3>
+      <p>19,99 €</p>
+      <button>Kúpiť</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Mikina MerchEriQ" />
+      <h3>Mikina MerchEriQ</h3>
+      <p>39,99 €</p>
+      <button>Kúpiť</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x300" alt="Čiapka MerchEriQ" />
+      <h3>Čiapka MerchEriQ</h3>
+      <p>14,99 €</p>
+      <button>Kúpiť</button>
+    </div>
+  </section>
+
+  <footer id="kontakt">
+    <p>Kontakt: mercheriq@email.com</p>
+    <p>© 2026 MerchEriQ. Všetky práva vyhradené.</p>
+  </footer>
+
+</body>
+</html>
